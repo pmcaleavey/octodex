@@ -22,7 +22,7 @@ ul.authors {
 .authors li {
   list-style-type: none;
   display: inline-block;
-  text-decoration: none;
+  //text-decoration: none;
 }
 
 .authors li img {
@@ -53,10 +53,10 @@ ul.authors {
   color: #d1d1e0;
 }
 
-.image-number:before {//place # before the numbers
+.image-number:before {
   content: "#";
 }
 
-.image-caption span {//displayed, then disappeared
+.image-caption span {
   color: #777;
 }
