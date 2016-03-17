@@ -22,7 +22,7 @@ ul.authors {
 .authors li {
   list-style-type: none;
   display: inline-block;
-  //text-decoration: none;
+  /*text-decoration: none;*/
 }
 
 .authors li img {
@@ -36,9 +36,9 @@ ul.authors {
   cursor: default;
 }
 
-//.octocat.href { Trying to remove underline from links
-//  text-decoration: none;
-//}
+/*.octocat.href { #trying to remove underline from links
+  text-decoration: none;
+}*/
 
 .image-caption {
   display: block;
