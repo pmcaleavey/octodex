@@ -1,0 +1,62 @@
+.octodex {
+  padding: 50px;
+}
+
+.octocat img {
+  width: 375px;
+  border: 1px solid lightgrey;
+}
+
+.authors img {
+  width: 20px;
+}
+
+.authors {
+  float:right;
+}
+
+ul.authors {
+  padding-left: 1px;
+}
+
+.authors li {
+  list-style-type: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.authors li img {
+  float: right;
+  border: none;
+}
+
+.octocat {
+  display: inline-block;
+  pointer-events: none;
+  cursor: default;
+}
+
+//.octocat.href { Trying to remove underline from links
+//  text-decoration: none;
+//}
+
+.image-caption {
+  display: block;
+  float: right;
+  font: 16px helvetica,arial,freesans,clean,sans-serif;
+  line-height: 1.4em;
+  font-weight: bold;
+}
+
+.image-number {
+  float: left;
+  color: #d1d1e0;
+}
+
+.image-number:before {//place # before the numbers
+  content: "#";
+}
+
+.image-caption span {//displayed, then disappeared
+  color: #777;
+}
